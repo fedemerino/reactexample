@@ -16,8 +16,10 @@ export const Reportes = () => {
     ]
 
     return (
-        <div className='tableContainer'>
-            <DataGrid rows={rows} columns={columns} slots={{ toolbar: customToolbar }}  />
+        <div className='reportesContainer'>
+            <div className='tableContainer'>
+                <DataGrid sx={{color:'white'}} rows={rows} columns={columns} slots={{ toolbar: customToolbar }}  />
+            </div>
         </div>
     )
 }

@@ -7,7 +7,7 @@ export const Card = ({ card }) => {
             <div className="links">
                 {card.links.map((link) => {
                     return (
-                        <a href={link.url}>
+                        <a href={link.url} key={link.url}>
                             <p>{link.name}</p>
                         </a>
                     )

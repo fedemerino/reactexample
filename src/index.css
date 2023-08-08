@@ -5,7 +5,7 @@
   line-height: 1.5;
   font-weight: 400;
   color: rgba(20, 20, 20, 0.87);
-  background-color: #f1f1f1;
+  background-color: #f1f1f1 ;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -93,6 +93,21 @@ button:focus-visible {
 }
 
 .tableContainer{
- width: 80vw;
- height: 80vh;
+  width: 90vw;
+  height: 90vh;
+}
+
+.reportesContainer, .autogestionContainer{
+  background-color: rgb(13, 17, 23);
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.autogestionContainer{
+  gap: 1rem;
 }
